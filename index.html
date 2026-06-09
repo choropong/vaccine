@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>veccin MY PAGE</title>
-    <!-- 유튜브 아이콘을 위한 FontAwesome 가져오기 -->
+    <title>veccin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        /* 마인크래프트 폰트 웹폰트 적용 */
         @font-face {
             font-family: 'Minecraft';
             src: url('https://cdn.jsdelivr.net/gh/South-Paw/typeface-minecraft@master/font/minecraft-font.woff2') format('woff2');
         }
 
         body {
-            /* React Bits 스타일의 부드럽고 화려한 애니메이션 배경 (Aurora 느낌) */
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
@@ -35,7 +32,6 @@
             100% { background-position: 0% 50%; }
         }
 
-        /* 메인 타이틀 - 네온 글로우 효과 추가 */
         h1 {
             font-size: 4.5rem;
             margin-bottom: 3rem;
@@ -49,7 +45,6 @@
             to { text-shadow: 0 0 20px rgba(255,255,255,1), 0 0 30px #e73c7e, 0 0 40px #23a6d5; }
         }
 
-        /* 링크 컨테이너 항목 - Glassmorphism(유리 질감) 효과 적용 */
         .link-item {
             display: flex;
             align-items: center;
@@ -76,7 +71,6 @@
             border: 1px solid rgba(255, 255, 255, 0.4);
         }
 
-        /* 하얀색 yt.png 이미지 스타일 */
         .yt-image {
             height: 35px;
             width: auto;
@@ -84,7 +78,6 @@
             filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.6));
         }
 
-        /* 유튜브 아이콘 및 구독자수 */
         .youtube-icon {
             color: #FF0000;
             font-size: 2.5rem;
@@ -95,24 +88,22 @@
             font-weight: bold;
         }
 
-        /* Plancke 아이콘 및 마인크래프트 스타일 적용 */
         .plancke-icon {
             width: 40px;
             height: 40px;
             margin-right: 15px;
         }
 
-        /* 하이픽셀 유튜버[YT] 랭크 스타일 색상 및 그림자 */
         .mc-font {
             font-family: 'Minecraft', monospace;
-            color: #FF5555; /* 마인크래프트 Red */
-            text-shadow: 2px 2px 0px #3F1515; /* 마인크래프트 텍스트 고유 그림자 */
+            color: #FF5555;
+            text-shadow: 2px 2px 0px #3F1515;
             font-size: 1.5rem;
         }
         .mc-font2 {
             font-family: 'Minecraft', monospace;
-            color: #FFFFFF; /* 마인크래프트 Red */
-            text-shadow: 2px 2px 0px #4b4b4b; /* 마인크래프트 텍스트 고유 그림자 */
+            color: #FFFFFF;
+            text-shadow: 2px 2px 0px #4b4b4b;
             font-size: 1.5rem;
         }
     </style>
@@ -121,13 +112,11 @@
 
     <h1>!</h1>
     
-    <!-- 유튜브 링크 -->
-    <a href="https://www.youtube.com/c/UC" target="_blank" class="link-item">
+    <a href="https://www.youtube.com/c/U" target="_blank" class="link-item">
         <img src="yt.png" alt="YouTube" class="yt-image">
         <span class="mc-font2">90k subscribers</span>
     </a>
 
-    <!-- Plancke (하이픽셀 전적) 링크 -->
     <a href="https://plancke.io/hypixel/player/stats/veccin" target="_blank" class="link-item">
         <img src="https://plancke.io/favicon.ico" alt="Plancke 아이콘" class="plancke-icon">
         <span class="mc-font">[</span><span class="mc-font2">YT</span><span class="mc-font">] veccin</span>
