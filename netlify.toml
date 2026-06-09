@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://veccin.r-e.kr/*"
+  to = "https://www.veccin.r-e.kr/:splat"
+  status = 301
+  force = true
